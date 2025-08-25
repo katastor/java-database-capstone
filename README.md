@@ -34,3 +34,13 @@ Questo progetto è parte del corso e ha come obiettivo la creazione di un sistem
 
 ##  Licenza
 Questo progetto è realizzato per scopi didattici.
+
+## Database
+
+Gli script del database sono in `sql/`.
+
+### Creazione rapida (MySQL locale già attivo)
+1. Apri un client MySQL e lancia:
+   ```sql
+   SOURCE ./sql/schema.sql;
+   SOURCE ./sql/sample-data.sql;
