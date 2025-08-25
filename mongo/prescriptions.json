@@ -1,0 +1,51 @@
+[
+  {
+    "patientId": 101,
+    "patientName": "John Smith",
+    "appointmentId": 1001,
+    "doctorId": 11,
+    "doctorName": "Dr. Emily Adams",
+    "medications": [
+      { "name": "Paracetamol", "dosage": "500mg", "frequency": "1 tablet every 8h", "durationDays": 5 }
+    ],
+    "doctorNotes": "Hydrate well. Avoid alcohol.",
+    "refillCount": 1,
+    "pharmacy": { "name": "City Pharmacy", "location": "Main Street 10" },
+    "tags": ["pain", "fever"],
+    "createdAt": "2025-05-22T09:00:00Z",
+    "updatedAt": "2025-05-22T09:00:00Z"
+  },
+  {
+    "patientId": 102,
+    "patientName": "Anna Rossi",
+    "appointmentId": 1002,
+    "doctorId": 12,
+    "doctorName": "Dr. Mark Johnson",
+    "medications": [
+      { "name": "Amoxicillin", "dosage": "1g", "frequency": "every 12h", "durationDays": 7 },
+      { "name": "Probiotic", "dosage": "1 cap", "frequency": "daily", "durationDays": 7 }
+    ],
+    "doctorNotes": "Take after meals.",
+    "refillCount": 0,
+    "pharmacy": { "name": "Green Health", "location": "Via Garibaldi 21" },
+    "tags": ["infection", "antibiotic"],
+    "createdAt": "2025-05-23T10:30:00Z",
+    "updatedAt": "2025-05-23T10:30:00Z"
+  },
+  {
+    "patientId": 101,
+    "patientName": "John Smith",
+    "appointmentId": 1003,
+    "doctorId": 13,
+    "doctorName": "Dr. Sarah Lee",
+    "medications": [
+      { "name": "Ibuprofen", "dosage": "400mg", "frequency": "every 8h PRN", "durationDays": 3 }
+    ],
+    "doctorNotes": "Stop if gastric pain occurs.",
+    "refillCount": 0,
+    "pharmacy": { "name": "WellCare", "location": "Piazza Duomo 5" },
+    "tags": ["inflammation"],
+    "createdAt": "2025-05-24T15:00:00Z",
+    "updatedAt": "2025-05-24T15:00:00Z"
+  }
+]
